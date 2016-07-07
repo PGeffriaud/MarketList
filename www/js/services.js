@@ -1,7 +1,7 @@
 angular.module('starter.services', [])
 
     .factory('Items', function($firebaseArray) {
-        var itemsRef = new Firebase('https://ionicexample-f26c5.firebaseio.com/items');
+        var itemsRef = new Firebase('https://marketlist-51a34.firebaseio.com/items');
         var items = $firebaseArray(itemsRef);
 
         return {
